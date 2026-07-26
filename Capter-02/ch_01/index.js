@@ -1,22 +1,23 @@
 // Add Variables Here
 
-let NumberOne = "10";
-let NumberTwo = 20;
+let numberOne = 10;
+let numberTwo = 20;
 
-// Ouput
-console.log(NumberOne + NumberTwo); // Normal Concatenate => 1020
-console.log("Add Code Here"); // Normal Concatenate => String
-console.log("Add Code Here"); // Template Literals Way => 1020
-console.log("Add Code Here"); // Template Literals Way => String
+// Output
+console.log(numberOne +""+numberTwo); // Normal Concatenate => 1020
+console.log(typeof(numberOne +""+numberTwo)); // Normal Concatenate => String
+console.log(`${numberOne}${numberTwo}`); // Template Literals Way => 1020
+console.log(typeof(`${numberOne}${numberTwo}`)); // Template Literals Way => String
 
-console.log("Add Code Here");
+console.log(numberTwo + "\n"+ numberOne);
 /*
   Normal Concatenate
   20
   10
 */
 
-console.log("Add Code Here");
+console.log(`${numberTwo} 
+${numberOne}`);
 /*
   Template Literals Way
   20
