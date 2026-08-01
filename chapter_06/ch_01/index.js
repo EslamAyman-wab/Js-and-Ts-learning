@@ -2,9 +2,8 @@ let myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
 let num = 3;
 
 // Method 1
-myFriends.length = num
-console.log(`${myFriends}`); // ["Ahmed", "Elham", "Osama"];
+console.log(myFriends.slice(false, num)); // ["Ahmed", "Elham", "Osama"];
 
 // Method 2
-myFriends.length - true;
-console.log(`${myFriends}`); // ["Ahmed", "Elham", "Osama"];
+myFriends.splice(myFriends.length-true),true
+console.log(myFriends); // ["Ahmed", "Elham", "Osama"];
