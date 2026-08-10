@@ -1,3 +1,5 @@
+let aobject = Object.create({})
+aobject.a = 1;
 let a = 1;
 
 let threeNums = {
@@ -12,6 +14,8 @@ let twoNums = {
 };
 
 // Create Your Object Here in One Line
+
+let finalObject = Object.assign({a:a},threeNums,twoNums)
 
 console.log(finalObject);
 
