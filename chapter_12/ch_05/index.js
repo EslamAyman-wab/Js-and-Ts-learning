@@ -15,7 +15,8 @@ const game = {
 let o = "Oath In Felghana";
 let a = "Ark Of Napishtim";
 let {["Ark Of Napishtim"]:us} = game.releases;
-let{title:t,developer:d} = game;
+let {US: u_price , JAP:j_price} = us
+let{title:t,developer:d,releases:{Origin:or,["Oath In Felghana"]:[u,j]}} = game;
 
 
 console.log(`My Favourite Games Style Is ${t} Style`);
