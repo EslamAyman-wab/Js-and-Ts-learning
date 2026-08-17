@@ -1,6 +1,6 @@
 let myFriends = ["Osama", "Ahmed", "Sayed", "Sayed", "Mahmoud", "Osama"];
 
-let myNewSet = new Set(myFriends);
-console.log(myNewSet)
+
+console.log(Array.from(new Set(myFriends)).sort())
 // Needed Output
-(4) ['Ahmed', 'Mahmoud', 'Osama', 'Sayed']
+// (4) ['Ahmed', 'Mahmoud', 'Osama', 'Sayed']
