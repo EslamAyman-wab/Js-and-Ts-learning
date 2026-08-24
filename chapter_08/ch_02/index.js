@@ -13,7 +13,7 @@ function calculate(firstNum, secondNum, operation) {
                 case 'multiply':console.log(firstNum * secondNum);
                 break;
             default:
-                console.log(`the operation is ${operation} not found`);
+                console.log(`The operation is ${operation} not found`);
                 break;
         }
     }

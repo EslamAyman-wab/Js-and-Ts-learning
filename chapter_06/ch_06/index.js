@@ -11,4 +11,4 @@ allArrs.push(name3);
 allArrs.push(name1);
 allArrs.push(name2);
 
-console.log(allArrs); // fxy
+console.log(allArrs); // ["F", "X", "Y"]

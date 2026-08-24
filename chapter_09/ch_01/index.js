@@ -5,7 +5,7 @@ function getDetails(zName, zAge, zCountry) {
         lastName = lastName[0].toUpperCase();
         return `${firstName} ${lastName}.`;
         // Osama Mohamed => Osama M.
-        // Ahmed ali => Ahmed A.
+        // Ahmed Ali => Ahmed A.
     }
     function ageWithMessage(zAge) {
         let num = zAge;
@@ -31,7 +31,7 @@ function getDetails(zName, zAge, zCountry) {
 console.log(getDetails("Osama Mohamed", "38 Is My Age", "Egypt"));
 // Hello Osama M., Your Age Is 38, You Live In EG
 
-console.log(getDetails("Ahmed ali", "32 Is The Age", "Syria"));
+console.log(getDetails("Ahmed Ali", "32 Is The Age", "Syria"));
 // Hello Ahmed A., Your Age Is 32, You Live In SY
 
 

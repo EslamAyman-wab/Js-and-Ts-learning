@@ -6,10 +6,10 @@ console.log(num + num); // 6
 // Solution Two
 console.log(num + true + true + true); // 6
 
-// Soultion Three
+// Solution Three
 console.log(num ** (true + true) - num); // 6
 
-// Soultion Four
+// Solution Four
 console.log(+`${num + num}`); // 6
 
 // Solution Five

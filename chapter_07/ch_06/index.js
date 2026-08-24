@@ -10,12 +10,12 @@ let result = "";
 for (let i = start; i < swappedName.length; i++) {
   let currentCharCode = swappedName.charCodeAt(i);
   if (currentCharCode >= codeSmallA) {
-    // الحرف صغير → هحوله كبير
+    // الحرف صغير → سأحوله إلى كبير
     let newCharCode = currentCharCode - difference;
     let newChar = String.fromCharCode(newCharCode);
     result += newChar;
   } else {
-    // الحرف كبير → هحوله صغير
+    // الحرف كبير → سأحوله إلى صغير
     let newCharCode = currentCharCode + difference;
     let newChar = String.fromCharCode(newCharCode);
     result += newChar;

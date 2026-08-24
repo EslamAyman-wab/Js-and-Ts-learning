@@ -5,11 +5,11 @@ function ageInTime(theAge) {
         ${theAge *52} Weeks
         ${theAge * 365} Days
         ${theAge * 8760} Hours
-        ${theAge *525600} minutes
-        ${theAge * 31536000} seconds
+        ${theAge *525600} Minutes
+        ${theAge * 31536000} Seconds
         `)
     } else {
-        console.log(`Age Out of Range `)
+        console.log(`Age Out of Range`)
     }
     // Your Code Here
 }

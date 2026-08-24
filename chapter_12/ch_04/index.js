@@ -8,8 +8,8 @@ const member = {
 // Write Your Destructuring Assignment Here
 let {age :a,working:w,country:c,hobbies:[h1,,h3]} = member;
 
-console.log(`My Age Is ${a} And Iam ${w ? "" : "Not"} Working`);
-// My Age Is 30 And Iam Not Working
+console.log(`My Age Is ${a} And I am ${w ? "" : "Not"} Working`);
+// My Age Is 30 And I am Not Working
 
 console.log(`I Live in ${c}`);
 // I Live in Egypt

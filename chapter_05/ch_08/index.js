@@ -17,7 +17,7 @@ let day = "   friday  ";
 // // Output => "From 10:00 AM To 7:00 PM"
 
 // let day = "World";
-// // Output => "Its Not A Valid Day"
+// // Output => "It's Not A Valid Day"
 
 let cleanday = day.trim();
 let upletter = cleanday.charAt(0).toUpperCase();
@@ -30,7 +30,7 @@ switch (Day) {
   case "Friday":
   case "Saturday":
   case "Sunday":
-    console.log("No Appointments Availabl");
+    console.log("No Appointments Available");
     break;
   case "Monday":
   case "Thursday":
@@ -43,5 +43,5 @@ switch (Day) {
     console.log("From 10:00 AM To 7:00 PM");
     break;
   default:
-    console.log("Its Not A Valid Day");
+    console.log("It's Not A Valid Day");
 }

@@ -18,7 +18,7 @@ let myFavGames = {
         bestThree: {
             one: "Oath in Felghana",
             two: "Ark Of Napishtim",
-            three: "origin",
+            three: "Origin",
         },
         price: 40,
     },
@@ -44,7 +44,7 @@ let gameObject = myFavGames[array[i]];
     console.log("#".repeat(20));
 }
 
-// Ouput
+// Output
 
 "The Game Name Is Trinity Universe"
 "The Publisher Is NIS America"
@@ -64,5 +64,5 @@ let gameObject = myFavGames[array[i]];
 "- Game Has Releases"
 "First => Oath in Felghana"
 "Second => Ark Of Napishtim"
-"Third => origin"
+"Third => Origin"
 "####################"

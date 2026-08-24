@@ -13,7 +13,7 @@ The project is structured into chapter folders (`chapter_02` through `chapter_07
 
 ---
 
-## 2. Project Goodness (Strengths)
+## 2. Project Strengths
 * **Organized Hierarchy**: Clean folder structure (`chapter_XX/ch_YY`), making it easy to track learning progress topic by topic.
 * **Creative Problem Solving**: Demonstrates good effort in exploring multiple ways to solve a single problem (e.g., using type coercion `+true`, template literals, and different array/string methods).
 * **Modern ES6 Syntax**: Good usage of template literals (`${}`), modern string methods (`includes`, `slice`), and standard variable declarations (`let`).
@@ -21,8 +21,8 @@ The project is structured into chapter folders (`chapter_02` through `chapter_07
 
 ---
 
-## 3. Project Badness (Weaknesses)
-* **File Naming Typo**: An HTML file is misspelled as `intex.html`.
+## 3. Project Weaknesses
+* **File Naming Typo**: An HTML file is misspelled as `index.html` (Fixed).
 * **Incomplete Chapters**: `chapter_07` is unfinished (`ch_01` is empty, `ch_02` only has a dummy test print).
 * **Unprinted String Expressions**: In `chapter_05/ch_05`, output strings are written as raw literal expressions without `console.log()`.
 * **Unreachable Control Logic**: In `chapter_05/ch_06`, `else if` blocks can never be reached due to condition ordering.
@@ -33,8 +33,8 @@ The project is structured into chapter folders (`chapter_02` through `chapter_07
 ## 4. Comprehensive Audit of Mistakes
 
 ### A. Spelling & Typographical Mistakes
-1. [intex.html](file:///d:/Js-and-Ts-learning/chapter_02/ch_02/intex.html)
-   * **Issue**: File is named `intex.html` instead of `index.html`.
+1. [index.html](file:///d:/Js-and-Ts-learning/chapter_02/ch_02/index.html)
+   * **Issue**: File was named `intex.html` instead of `index.html` (Corrected).
 2. [chapter_03/ch_01/index.js](file:///d:/Js-and-Ts-learning/chapter_03/ch_01/index.js#L9-L12)
    * **Issue**: Lines 9 and 12 contain comments with `// Soultion Three` and `// Soultion Four` (`Soultion` instead of `Solution`).
 3. [chapter_05/ch_08/index.js](file:///d:/Js-and-Ts-learning/chapter_05/ch_08/index.js#L33)
