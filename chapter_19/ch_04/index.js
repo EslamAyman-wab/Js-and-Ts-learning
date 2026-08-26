@@ -1,5 +1,8 @@
-let num = "12345678";
+// Write Your Code Here
 
-let result = num.replace(/\d{4}(?=\d)/g, "$&-");
-
-console.log(result);
+String.prototype.addLove = function (){
+ return `I Love ${this} Web School`
+}
+// Do Not Edit Below
+let myStr = "Elzero";
+console.log(myStr.addLove()); // I Love Elzero Web School
