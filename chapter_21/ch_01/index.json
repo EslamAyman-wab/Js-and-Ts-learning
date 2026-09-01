@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "author": "Sarah Connor",
+    "category": "Technology",
+    "title": "The Future of Artificial Intelligence",
+    "content": "AI is transforming how we write code and solve modern problems."
+  },
+  {
+    "id": 2,
+    "author": "Omar Ali",
+    "category": "Web Development",
+    "title": "Mastering Modern JavaScript",
+    "content": "Understanding generators, async functions, and modules makes your code cleaner."
+  },
+  {
+    "id": 3,
+    "author": "Emma Watson",
+    "category": "Design",
+    "title": "UI and UX Fundamentals",
+    "content": "Good design focuses on simple user journeys and accessible interfaces."
+  },
+  {
+    "id": 4,
+    "author": "Alex Johnson",
+    "category": "Science",
+    "title": "Discoveries in Deep Space",
+    "content": "New telescopes continue to find exoplanets in distant galaxies."
+  },
+  {
+    "id": 5,
+    "author": "Youssef Hassan",
+    "category": "Health",
+    "title": "Healthy Habits for Developers",
+    "content": "Regular breaks, hydration, and exercise keep your mind sharp while coding."
+  }
+]
